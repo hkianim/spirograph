@@ -47,7 +47,8 @@ python app.py
 2. The application will open, and you can configure the spirograph parameters:
    - **Radius 1**: Set the radius of the outer circle.
    - **Radius 2**: Set the radius of the inner circle.
-   - **Radius 3**: Set the distance of pen from circle 2 center.
+   - **Radius 3**: Set the distance of the pen from the center of the inner circle.
+   - **Cycles**: Set the number of cycles the inner circle should rotate around the outer circle.
 
 3. Click the "Render" button to generate the spirograph pattern.
 
