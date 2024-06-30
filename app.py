@@ -69,7 +69,7 @@ spinCycles = tk.Spinbox(
 )
 spinCycles.pack(fill=tk.X, padx=10)
 
-buttonDraw = tk.Button(master=panelLeft, text="Draw", command=buttonDrawClickHandler)
+buttonDraw = tk.Button(master=panelLeft, text="Render", command=buttonDrawClickHandler)
 
 buttonDraw.pack(fill=tk.X, padx=10, pady=5)
 panelLeft.pack(side=tk.LEFT, fill=tk.Y)
