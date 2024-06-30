@@ -8,7 +8,7 @@ The Spirograph is a tool for generating and visualizing spirograph patterns deve
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/spirograph-renderer.git
+git clone https://github.com/hkianim/spirograph-renderer.git
 ```
 
 2. Navigate to the project directory:
