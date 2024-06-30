@@ -1,40 +1,53 @@
 
 # Spirograph
 
-This project is a tool for creating and rendering spirograph patterns.
+The Spirograph is a tool for generating and visualizing spirograph patterns developed by [H. Kiani Moghaddam].
 
 ## Installation
 
-To install and use the Spirograph, follow these steps:
+1. Clone the repository:
 
-1. Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/spirograph.git
+git clone https://github.com/your-username/spirograph-renderer.git
 ```
 
 2. Navigate to the project directory:
+
 ```
-cd spirograph
+cd spirograph-renderer
 ```
 
-3. Install the required dependencies:
+3. Create and activate a virtual environment:
+
+   - On Windows:
+     ```
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+
+4. Install the required dependencies:
+
 ```
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-To use the Spirograph, follow these steps:
-
 1. Run the main script:
+
 ```
 python app.py
 ```
 
-2. The application will open, and you can start configuring the spirograph parameters:
-   - **Radius1**: Set the radius of the outer circle.
-   - **Radius2**: Set the radius of the inner circle.
-   - **Radius3**: Set the radius of the pen circle.
+2. The application will open, and you can configure the spirograph parameters:
+   - **Radius 1**: Set the radius of the outer circle.
+   - **Radius 2**: Set the radius of the inner circle.
+   - **Radius 3**: Set the distance of pen from circle 2 center.
 
 3. Click the "Render" button to generate the spirograph pattern.
 
